@@ -1,0 +1,26 @@
+.container-fluid .box{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  /* // text-align: justify; */
+}
+
+.container-fluid .box:hover{
+  border: 1px solid rgb(89, 204, 204);
+  transition: 0.5s;
+}
+
+.example-spacer {
+  flex: 0.9 0.9 auto;
+}
+table {
+    width: 100%;
+  }
+  tr:nth-child(even){
+      background-color: rgb(209, 203, 203);
+  }
+
+  .start {
+    color: blue;
+  }
